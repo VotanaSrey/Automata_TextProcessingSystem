@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./components/layouts/header/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Application, History, Team } from "./pages";
+import DfaApplication from "./pages/Application/DFA_Application/DfaApplication";
+import DfaResult from "./pages/Application/DFA_result/DfaResult";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Application />} />
+          <Route path="dfa_application" element={<DfaApplication />} />
+          <Route path="dfa_result" element={<DfaResult />} />
+          <Route path="history" element={<History />} />
+          <Route path="team" element={<Team />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

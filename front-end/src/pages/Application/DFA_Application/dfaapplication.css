@@ -1,0 +1,49 @@
+.input__wrapper {
+  margin-top: 2em;
+}
+.dfa__container {
+  padding: 3em 0;
+}
+.dfa__wrapper {
+  width: 100vw;
+  height: 2.5em;
+  background: #1b196e;
+  text-align: center;
+}
+.dfa__wrapper__text {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.5em;
+}
+.input__container {
+  padding: 1em 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label__text {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.dfa__input {
+  height: 4em;
+  width: 50em;
+  color: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 0.5em;
+}
+.btn__wrapper {
+  padding: 2em 0;
+  text-align: center;
+}
+.input__btn {
+  border-radius: 20px;
+  background-color: #1b196e;
+  color: #ffffff;
+  width: 10em;
+  height: 2.5em;
+  font-size: 1rem;
+  font-weight: 700;
+}

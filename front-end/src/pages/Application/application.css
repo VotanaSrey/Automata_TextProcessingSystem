@@ -1,0 +1,42 @@
+.application__container {
+  padding: 3em 13em;
+}
+.application__text {
+  width: 94.3em;
+  height: 2.5em;
+  background: #1b196e;
+  text-align: center;
+}
+.allication__text__header {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.5em;
+}
+.application__items {
+  margin: 5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+.application__items a {
+  text-decoration: none;
+}
+.application__item {
+  width: 40em;
+  height: 25em;
+  background: #1b196e;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+}
+.application__content {
+  padding: 2em 0;
+}
+.application__content__text {
+  margin-top: 2em;
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.input__btn {
+  cursor: pointer;
+}

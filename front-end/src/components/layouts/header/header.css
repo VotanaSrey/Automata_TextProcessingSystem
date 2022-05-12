@@ -1,0 +1,33 @@
+.header__navbar {
+  background: #1b196f;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  color: #ffffff;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 2em;
+}
+.header__items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+.header__item {
+  margin-right: 2rem;
+}
+.header__item a {
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  background: #ffffff;
+  padding: 0.5em 2em;
+  border-radius: 20px;
+  color: #1b196f;
+}
